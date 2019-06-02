@@ -1,5 +1,10 @@
 function findout() {
-var lineA = parseInt(document.getElementById("sideA").value);
-var lineB = parseInt(document.getElementById("sideB").value);
-var lineC = parseInt(document.getElementById("sideC").value);
+var valA = parseInt(document.getElementById("sideA").value);
+var valB = parseInt(document.getElementById("sideB").value);
+var valC = parseInt(document.getElementById("sideC").value);
+
+if (valA === valB === valC){
+    alert("This is an equilateral triangle");
+}
+
 }
