@@ -18,8 +18,11 @@ function findout() {
     else if(val1 !== val2 && val2 !== val3 && val3 !== val1 && val1 + val3 <= val2){
         alert("This is a Scalene Triangle");
     }
-    else if(val1 !== val2 && val2 !== val3 && val3 !== val1 && val2 + val3 < val1) {
-        alert("This is a scalene Triangle");
+    else if(val1 !== val2 && val2 !== val3 && val3 !== val1 && val2 + val3 <= val1) {
+        alert("This is a Scalene Triangle");
+    }
+    else if(val1 !== val2 && val2 !== val3 && val3 !== val1 && val1 + val2 <= val3) {
+        alert("This is a Scalene Triangle");
     }
     
 }
