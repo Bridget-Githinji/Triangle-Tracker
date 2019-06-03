@@ -12,5 +12,9 @@ function findout() {
     else if(val1 === val3 && val1 !== val2) {
         alert("This is an Isosceles Triangle");
     }
+    else if(val2 === val3 && val2 !== val1) {
+        alert("This is an Isosceles Triangle");
+    }
+    
     
 }
