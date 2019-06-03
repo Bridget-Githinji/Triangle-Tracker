@@ -1,0 +1,5 @@
+function findout() {
+    var val1 = document.getElementById("sideA").value;
+    var val2 = document.getElementById("sideB").value;
+    var val3 = document.getElementById("sideC").value;
+}
