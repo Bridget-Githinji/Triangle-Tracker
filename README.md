@@ -8,8 +8,12 @@ This web application is designed to help a user check the type of triangle he or
 * Fork https://github.com/Bridget03/Triangle-Tracker
 * Clone the link above
 * Open the repository where the link is saved in* 
-## Known Bugs
-{Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place. }
+##BDD
+ |INPUT                     | BEHAVIOUR                 | OUTPUT
+ |side a = side b = side c  |  All sides are equal      |   Equilateral Triangle
+ |side a = side b != side c | Two sides are equal       |   Isosceles Triangle
+ |side a != side b != side c     | No side is equal but the sum                         | Scalene Triangle
+ |but side a + side b <= side c | of two sides is less than or equal to the third side | 
 ## Technologies Used
 HTML was used in the initial setup structure
 CSS was used in the styling
