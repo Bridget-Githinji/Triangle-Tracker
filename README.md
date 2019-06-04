@@ -9,10 +9,10 @@ This web application is designed to help a user check the type of triangle he or
 * Clone the link above
 * Open the repository where the link is saved in
 ## BDD
-If side a is equal to side b and is equal to side c, then the application returns an Equilateral triangle.
-If side a is equal to side b but not equal to side c, then the application returns an Isosceles triangle.
-If side a is not equal to side b and is still not equal to side c but the sum of any of the two sides is less than or equal to the third one, then the application retruns a Scalene Triangle. 
-If none of the conditions is satisfied, then the application returns No Triangle.
+* If side a is equal to side b and is equal to side c, then the application returns an Equilateral triangle.
+* If side a is equal to side b but not equal to side c, then the application returns an Isosceles triangle.
+* If side a is not equal to side b and is still not equal to side c but the sum of any of the two sides is less than or equal to the third one, then the application retruns a Scalene Triangle. 
+* If none of the conditions is satisfied, then the application returns No Triangle.
 ## Technologies Used
 HTML was used in the initial setup structure
 CSS was used in the styling
