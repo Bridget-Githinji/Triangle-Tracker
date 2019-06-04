@@ -4,7 +4,7 @@ function findout() {
     var val3 = parseInt(document.getElementById("sideC").value);
 
     if (val1 == " " || val2 == " " || val3 == " ") {
-        alert("Enter a number");
+        alert("Can't form a triangle");
         return
     }
      else if(val1 <= 0 || val2 <= 0 || val3 <= 0){
@@ -23,7 +23,7 @@ function findout() {
         alert("This is a Scalene Triangle");
     }
     else{
-        alert("This is not a Triangle!!")
+        alert("This is not a Triangle!!");
     }
     
 }
